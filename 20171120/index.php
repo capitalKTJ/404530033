@@ -54,8 +54,8 @@
 				function Arraymap_join($data){
 					return join("</td><td>",$data);
 				}
-				foreach(array_map("Arraymap_join",$data) as $newdata)
-					echo "<tr><td>".$newdata."</td></tr>";
+				foreach(array_map("Arraymap_join",$data) as $data1)
+					echo "<tr><td>".$data1."</td></tr>";
 			?>
 		</table>
 	</body>
